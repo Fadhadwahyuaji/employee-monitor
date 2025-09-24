@@ -1,0 +1,196 @@
+.activity-list {
+    display: space-between;
+    flex-direction: column;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f8c8d;
+    margin-right: 16px;
+}
+
+.activity {
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 4px;
+}
+
+.status,
+.person,
+.location,
+.manually-set {
+    font-size: 13px;
+    color: #7f8c8d;
+}
+
+/* .scheduled {
+    padding: 4px 8px;
+    border-radius: 4px;
+} */
+
+.manually-set {
+    background-color: #fef0c3;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 30px;
+    padding-left: 20px;
+    border-left: 3px solid #e0e0e0; /* Softened border color */
+    margin-top: 30px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.timeline-bubble {
+    position: absolute;
+    left: -35px; /* Centered on the border line */
+    top: 25px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #3498db; /* Vibrant blue */
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover .timeline-bubble {
+    transform: scale(1.1); /* Slight scale effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-item:hover .timeline-content {
+    transform: translateX(10px); /* Slight movement on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.description {
+    font-size: 14px;
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* inputan update */
+.inline-input {
+    width: auto; /* Biarkan lebar menyesuaikan dengan teks yang ada */
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    font-size: 14px;
+    background: transparent;
+    display: inline-block;
+}
+
+.update-form input,
+.update-form textarea {
+    display: inline-block;
+    width: 100%; /* Lebar akan mengikuti teks */
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.add-activity-button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-activity-button:hover {
+    background-color: #0b7dda;
+}
+
+.activity {
+    position: relative; /* Membuat activity menjadi relative untuk tombol */
+}
+
+.update-button {
+    position: absolute;
+    right: 0; /* Menempatkan tombol di sisi kanan */
+    top: 50%;
+    transform: translateY(-50%); /* Agar tombol berada di tengah vertikal */
+    /* background-color: #4caf50; */
+    color: black;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #ffffff;
+}
+
+.inline-input {
+    width: auto;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    font-size: 14px;
+    background: transparent;
+    display: inline-block;
+}

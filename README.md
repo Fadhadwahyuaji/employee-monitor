@@ -226,9 +226,44 @@ php artisan test
 npm run dev
 ```
 
-## 📝 License
+## 📄 **Lisensi**
 
-Project ini menggunakan MIT License.
+© 2024 Fadhad Wahyu Aji. All rights reserved.
+
+This project is developed by Fadhad Wahyu Aji as part of an internship challenge program. The code is provided for educational and demonstration purposes.
+
+**Permissions:**
+
+-   ✅ Private use
+-   ✅ Study and learning
+-   ✅ Modification for educational purposes
+
+**Limitations:**
+
+-   ❌ Commercial use without permission
+-   ❌ Distribution without attribution
+-   ❌ Patent use
+
+**Conditions:**
+
+-   📝 License and copyright notice must be included
+-   📝 Attribution to original author required
+
+For commercial use or other licensing arrangements, please contact the author.
+
+---
+
+**Developer Information:**
+
+-   **Name**: Fadhad Wahyu Aji
+-   **Year**: 2024
+-   **Project Type**: Internship Challenge - Employee Monitoring System
+-   **Framework**: Laravel 11.x
+-   **Contact**: [Add your contact information here]
+
+---
+
+_Made with ❤️ during internship program_
 
 ## 👨‍💻 Developer
 
